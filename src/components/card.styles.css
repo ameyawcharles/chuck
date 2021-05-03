@@ -1,0 +1,28 @@
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	background: linear-gradient(to bottom, #219ebc, #8ecae6, #f8b109);
+	margin-top: 2em;
+	margin-left: 30%;
+	margin-right: 30%;
+	box-shadow: 0 5px 10px 0 #023047, 0 8px 20px 0 #023047; 
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 0.9em;
+	-webkit-text-stroke: .08em white;
+	-moz-osx-font-smoothing: grayscale;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	transition: transform 0.25s ease-out;
+
+.card-container:hover {
+	transform: scale(1.05);
+}
+
+.image {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+	width: 250px;
+	height: 250px;
+}
